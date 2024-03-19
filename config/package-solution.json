@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-pnpjs-v-3-testing-client-side-solution",
+    "id": "4e82cd72-0f3d-403d-a297-050e43b809be",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-pnpjs-v3-testing description"
+      },
+      "longDescription": {
+        "default": "spfx-pnpjs-v3-testing description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-pnpjs-v-3-testing Feature",
+        "description": "The feature that activates elements of the spfx-pnpjs-v-3-testing solution.",
+        "id": "7035650f-00ca-431c-9044-b7b8d2349e01",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-pnpjs-v-3-testing.sppkg"
+  }
+}

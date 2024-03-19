@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-pnpjs-v-3-testing-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxPnpjsV3Testing/SpfxPnpjsV3TestingWebPart.js",
+          "manifest": "./src/webparts/spfxPnpjsV3Testing/SpfxPnpjsV3TestingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxPnpjsV3TestingWebPartStrings": "lib/webparts/spfxPnpjsV3Testing/loc/{locale}.js"
+  }
+}
